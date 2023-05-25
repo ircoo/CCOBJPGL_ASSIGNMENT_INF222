@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.DrinksController">
+   <left>
+      <AnchorPane prefHeight="342.0" prefWidth="600.0" style="-fx-background-color: #FFC0Cb;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="121.0" fitWidth="156.0" layoutX="64.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Pictures/drinks%20png/Matcha-milk-tea-recipe-with-ice-and-boba.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="117.0" fitWidth="194.0" layoutX="311.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Pictures/drinks%20png/Orange.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="80.0" layoutY="171.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Pictures/drinks%20png/saliva.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="124.0" fitWidth="100.0" layoutX="229.0" layoutY="7.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../../../../../Pictures/drinks%20png/strawberryMilk.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="121.0" fitWidth="218.0" layoutX="357.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../Pictures/drinks%20png/wine.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="btn1" layoutX="99.0" layoutY="134.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-radius: 20px; -fx-background-color: eb306e; -fx-border-color: white; -fx-border-radius: 20px;" text="Matcha" textFill="WHITE" />
+            <Button fx:id="btn4" layoutX="260.0" layoutY="134.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-radius: 20px; -fx-background-color: eb306e; -fx-border-color: white; -fx-border-radius: 20px;" text="Milk" textFill="WHITE" />
+            <Button fx:id="btn5" layoutX="433.0" layoutY="134.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-radius: 20px; -fx-background-color: eb306e; -fx-border-color: white; -fx-border-radius: 20px;" text="Wine" textFill="WHITE" />
+            <Button fx:id="btn3" layoutX="157.0" layoutY="287.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-radius: 20px; -fx-background-color: eb306e; -fx-border-color: white; -fx-border-radius: 20px;" text="Saliva" textFill="WHITE" />
+            <Button fx:id="btn2" layoutX="366.0" layoutY="287.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-radius: 20px; -fx-background-color: eb306e; -fx-border-color: white; -fx-border-radius: 20px;" text="Orange Juice" textFill="WHITE" />
+         </children>
+      </AnchorPane>
+   </left>
+   <top>
+      <AnchorPane prefHeight="96.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+         <children>
+            <Text layoutX="108.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Irish's Favorite Drinks">
+               <font>
+                  <Font name="Forte" size="41.0" />
+               </font>
+               <fill>
+                  <LinearGradient cycleMethod="REFLECT" endX="1.0" endY="1.0" startX="1.0" startY="0.4597156398104265">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.9210526347160339" green="0.1876218318939209" blue="0.43209877610206604" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.43421053886413574" green="0.07437865436077118" blue="0.40422454476356506" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </fill>
+            </Text>
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
