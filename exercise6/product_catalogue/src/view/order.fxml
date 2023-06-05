@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="508.0" prefWidth="276.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.OrderController">
+   <children>
+      <Label alignment="CENTER" layoutX="48.0" layoutY="117.0" prefHeight="18.0" prefWidth="178.0" text="  IKEA MOA PHILIPPINES">
+         <font>
+            <Font name="Baskerville Old Face" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="135.0" text="3 pm-5 pm  Saturday to Sunday" textAlignment="CENTER">
+         <font>
+            <Font size="10.0" />
+         </font></Label>
+      <Line endX="100.0" layoutX="138.0" layoutY="170.0" startX="-100.0" />
+      <Label fx:id="name1" layoutX="34.0" layoutY="276.0" prefHeight="17.0" prefWidth="112.0" text="BEDROOM LAMP">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font></Label>
+      <Label fx:id="price1" layoutX="216.0" layoutY="276.0" text="500" />
+      <Label layoutX="35.0" layoutY="394.0" text="SUBTOTAL">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font></Label>
+      <Label layoutX="217.0" layoutY="392.0" text="500" />
+      <Label layoutX="81.0" layoutY="148.0" text="Phone : +639994219254" textAlignment="CENTER">
+         <font>
+            <Font size="10.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="37.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ikeareciept.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="115.0" fitWidth="200.0" layoutX="39.0" layoutY="156.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/barcode.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="85.0" layoutY="235.0" prefHeight="37.0" prefWidth="105.0" text="Item # 122003" textAlignment="CENTER" />
+      <Label fx:id="name2" layoutX="34.0" layoutY="294.0" prefHeight="17.0" prefWidth="112.0" text="CEILING LAMP">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="name3" layoutX="34.0" layoutY="312.0" prefHeight="17.0" prefWidth="112.0" text="WALL LAMP">
+         <font>
+            <Font name="Times New Roman Bold" size="12.0" />
+         </font>
+      </Label>
+      <Label fx:id="price2" layoutX="216.0" layoutY="294.0" text="500" />
+      <Label fx:id="price3" layoutX="217.0" layoutY="312.0" text="500" />
+   </children>
+</AnchorPane>
